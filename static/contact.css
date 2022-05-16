@@ -1,0 +1,42 @@
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 12px 0px;
+}
+.container{
+    min-height: 80vh;
+    
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}
+.text{
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: black;
+
+}
+.btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color:aqua;
+    color: black;
+
+}

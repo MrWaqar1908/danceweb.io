@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title W.A DanceAcadamy
+      style
+      include ../static/dance.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/img/couple.png", alt="")
+          | W.A
+          
+        li #[a(href='#') Home ]
+          li #[a(href='#') About us ]  
+            li #[a(href='#') Services ]
+              li #[a(href='#') Classinfo]
+                li #[a(href='#') Contact us ]
+              
+            
+  section#intro 
+    div Welocome to  W.A dance acadamy.
+    div.id Eat Dance Sleep Repeat 
+  section#hi 
+    h2 Our mission    
+    div.card
+      h3 Dance perfection.
+      div.cbox
+        div.cimg 
+          img(src="/static/img/boy.png", alt="")
+        div.content 
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure harum.
+    div.card
+      h3 Dance the way you like.
+      div.cbox
+        div.cimg 
+          img(src="/static/img/free.png", alt="")
+        div.content 
+           p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure harum voluptatem.
+    div.card
+      h3 Expert Teaching.
+      div.cbox
+        div.cimg 
+          img(src="/static/img/girl.png", alt="")
+        div.content 
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure harum 
+
+  section#sp 
+    h2 Our sponser 
+      div#spon
+        img(src="static/img/logo.png", alt="", class="spi")
+        img(src="static/img/logo1.png", alt="", class="spi")
+        img(src="static/img/sky.png", alt="", class="spi")
+        img(src="static/img/univ.png", alt="", class="spi")
+
+
+  footer#foot 
+    |Copyright © 2022 W.A DanceAcadamy.com | All rights reserved
+
+
+      
+    script
+      include ../static/dance.js
